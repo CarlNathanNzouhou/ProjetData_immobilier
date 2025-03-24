@@ -1,0 +1,11 @@
+# Estate data source (link of data : https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/)
+real_estate : data/valeursfoncieres-2023.txt
+france_dept : data/departements-france.csv
+
+select_col : ['No disposition', 'Date mutation', 'Nature mutation', 'Valeur fonciere', 
+              'Code voie', 'Voie', 'Code postal', 'Commune', 'Code departement', 
+              'Code commune', 'No Volume', '1er lot', 'Surface Carrez du 1er lot', '2eme lot', 
+              'Surface Carrez du 2eme lot', '3eme lot', 'Surface Carrez du 3eme lot', 
+              '4eme lot', 'Surface Carrez du 4eme lot', '5eme lot', 'Surface Carrez du 5eme lot',
+              'Nombre de lots', 'Code type local', 'Type local', 'Surface reelle bati', 
+              'Nombre pieces principales']

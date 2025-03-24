@@ -1,0 +1,23 @@
+# Exclure les fichiers de configuration spécifiques à l'environnement
+.env
+*.pyc
+__pycache__/
+
+# Exclure les dossiers de l'environnement virtuel
+venv/
+env/
+.venv/
+
+# Exclure les fichiers de log et de cache
+*.log
+.cache/
+
+# Exclure les fichiers de configuration de l'IDE
+.vscode/
+.idea/
+
+# Exclure les fichiers de données volumineux ou sensibles
+data/
+.csv
+val_imo_test.ipynb
+Dashbord_imo.pbix

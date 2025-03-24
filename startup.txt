@@ -1,0 +1,1 @@
+streamlit run apps.py --server.port 8000 --server.enableCORS false
